@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="carousel.css">
+  <style>
+    section {
+      margin-top: 100px;
+      background-color: black;
+      width: 900px;
+      border: 1px solid green;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="carousel">
+      <div class="imagesList" id="imagesList">
+        <ul>
+          <li class="current"> <a href=""> <img src="images/0.jpg" alt=""> </a> </li>
+          <li> <a href=""> <img src="images/1.jpg" alt=""> </a> </li>
+          <li> <a href=""> <img src="images/2.jpg" alt=""> </a> </li>
+          <li> <a href=""> <img src="images/3.jpg" alt=""> </a> </li>
+          <li> <a href=""> <img src="images/4.jpg" alt=""> </a> </li>
+        </ul>
+      </div>
+      <div class="btns">
+        <span class="leftBtn" id="carousel_leftBtn">左</span>
+        <span class="rightBtn" id="carousel_rightBtn">右</span>
+      </div>
+      <div class="circles" id="circles">
+        <ol>
+          <li class="current"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <script src="carousel.js" charset="utf-8"></script>
+</body>
+</html>
