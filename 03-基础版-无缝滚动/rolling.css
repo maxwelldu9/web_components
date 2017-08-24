@@ -1,0 +1,25 @@
+ul,li {
+  list-style: none;
+}
+.rolling {
+  width: 800px;
+  height: 130px;
+  border: 10px solid #ccc;
+  margin: 100px auto;
+  position: relative;
+  overflow: hidden;
+}
+.rolling .m_unit {
+  /*//这是运动的单元*/
+  position: absolute;
+  width: 5000px;
+  top: 0;
+  left: 0;
+}
+.rolling ul li {
+  float: left;
+  margin-right: 10px;
+  background: url(images/shuzi/loading.gif);
+}
+.rolling ul li img {
+  height: 130px;
