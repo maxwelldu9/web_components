@@ -1,0 +1,9 @@
+.backtotop {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  right: 10px;
+  bottom: 30px;
+  background-color: yellowgreen;
+  display: none;
+}
