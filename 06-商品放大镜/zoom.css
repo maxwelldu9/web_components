@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.product {
+  position: relative;
+  border: 1px solid red;
+}
+.smallPic {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border: 1px solid #ccc;
+}
+.smallPic img{
+  width: 100%;
+  height: 100%;
+}
+.smallPic .zoom {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  top: 100px;
+  left: 100px;
+  background-color: #FEDE4F;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  border: 1px solid #aaa;
+  display: none;
+}
+.bigPic {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  border: 1px solid black;
+  display: none;
+}
