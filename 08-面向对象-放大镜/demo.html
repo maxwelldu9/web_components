@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="zoom.css">
+</head>
+<body>
+  <div id="product" class="product">
+    <div id="smallPic" class="smallPic">
+      <img src="images/xiao.jpg" alt="">
+      <div id="zoom" class="zoom"></div>
+    </div>
+    <div id="bigPic" class="bigPic"></div>
+  </div>
+  <script src="zoom.js" charset="utf-8"></script>
+  <script>
+    new Zoom("#smallPic", "#bigPic", "#zoom", 'images/da.jpg');
+  </script>
+  
+  <div id="product1" class="product">
+    <div id="smallPic1" class="smallPic">
+      <img src="images/xiao.jpg" alt="">
+      <div id="zoom1" class="zoom"></div>
+    </div>
+    <div id="bigPic1" class="bigPic"></div>
+  </div>
+  <script>
+	new Zoom("#smallPic1", "#bigPic1", "#zoom1", 'images/da.jpg');
+  </script>
+</body>
+</html>
