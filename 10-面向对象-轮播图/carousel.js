@@ -1,4 +1,4 @@
-function Carousel(selector) {		
+function Carousel(selector) {
 	this.index = 0;
 	this.oRightBtn = document.querySelector(selector).querySelector('.carousel_rightBtn');
 	this.oLeftBtn = document.querySelector(selector).querySelector('.carousel_leftBtn');
@@ -22,7 +22,7 @@ Carousel.prototype.bindEvent = function() {
 	  }
 	  self.move();
 	}
-	
+
 	for (var i = 0; i < self.oCirclesLists.length; i++) {
 	  (function(i){
 		self.oCirclesLists[i].onmouseover = function() {
