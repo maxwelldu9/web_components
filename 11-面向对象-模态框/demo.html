@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="modal.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <button data-name="register" class="register" id="register">注册</button>
+
+  <div class="modal register">
+    <div class="container">
+      <div class="hd"><span class="close">关闭</span></div>
+      <div class="bd">
+        注册页面
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+        <p>内容</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="modal.js" charset="utf-8"></script>
+  <script>
+    var modal = new Modal('#register');
+  </script>
+</body>
+</html>
