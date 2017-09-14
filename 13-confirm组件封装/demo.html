@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="confirm.css">
+</head>
+<body>
+  <p>删除</p>
+  <script src="confirm.js" charset="utf-8"></script>
+  <script>
+    var oP = document.querySelector('p');
+    oP.onclick = function(){
+      confirm('确认要删除吗？', function(){
+        console.log('删除成功');
+        document.body.removeChild(oP);
+      }, function(){
+        console.log('取消删除');
+      });
+    }
+  </script>
+</body>
+</html>

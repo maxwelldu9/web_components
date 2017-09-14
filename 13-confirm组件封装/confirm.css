@@ -1,0 +1,47 @@
+.mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 16px;
+  /*禁止用户选择*/
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+}
+.confirm {
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 50%;
+  padding: 10px 5px;
+  background: #000;
+  opacity: .8;
+  filter: alpha(opacity=80);
+  color: #fff;
+  box-sizing: border-box;
+}
+.confirm div.title {
+  margin: 10px 0px;
+}
+.confirm span.ok, .confirm span.cancel {
+  display: inline-block;
+  width: 60px;
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
+  background-color: orange;
+  box-sizing: border-box;
+  border: 1px solid orange;
+}
+.confirm span.ok:hover, .confirm span.cancel:hover {
+  cursor: pointer;
+  border: 1px solid white;
+}
+.confirm span.ok{
+}
